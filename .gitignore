@@ -1,0 +1,16 @@
+node_modules
+
+logs/
+allure-results/
+allure-report/
+
+# secrets and local env
+.env
+
+# app binaries
+*.apk
+*.aab
+*.ipa
+*.app
+
+.DS_Store
