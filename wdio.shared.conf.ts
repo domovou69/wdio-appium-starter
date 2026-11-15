@@ -15,7 +15,6 @@ export const config: Omit<WebdriverIO.Config, 'capabilities'> = {
   connectionRetryTimeout: 120_000,
   connectionRetryCount: 3,
 
-  // The service starts and stops the Appium server (port 4723) for you.
   services: [['appium', { command: 'appium' }]],
 
   framework: 'mocha',
