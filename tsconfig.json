@@ -6,12 +6,15 @@
     "strict": true,
     "noEmit": true,
     "skipLibCheck": true,
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
     "types": [
       "node",
       "@wdio/globals/types",
       "@wdio/mocha-framework",
-      "@wdio/appium-service"
+      "@wdio/appium-service",
+      "expect-webdriverio"
     ]
   },
-  "include": ["test/**/*.ts", "wdio.conf.ts"]
+  "include": ["test/**/*.ts", "wdio.*.conf.ts"]
 }
